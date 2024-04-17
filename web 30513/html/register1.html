@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 600px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>회원 가입을 환영합니다</h1>
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li><label>아이디<input type="text" name="id"></label></li>
+                <li><label>이메일<input type="email" name="email"></label></li>
+                <li><label>비밀번호<input type="password" name="pwd"></label></li>
+                <li><label>비밀번호 확인<input type="password" name="pwdq"></label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <li><label>메일 수신<input type="radio" name="mail"></label></li>
+            <li><label>메일 수신 안 함<input type="radio" name="nomail" checked></label></li>
+        </fieldset>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소">
+    </div>
+</body>
+
+</html>
